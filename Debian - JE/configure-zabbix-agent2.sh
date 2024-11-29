@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Unikatni hostname ubuntu (Lepší než hostname školní stanice)
-UNIQUE_HOSTNAME="debian-$(uuidgen)"
+UNIQUE_HOSTNAME="efler-$(uuidgen)"
 SHORT_HOSTNAME=$(echo $UNIQUE_HOSTNAME | cut -d'-' -f1,2)
 
 # # Konfigurace zabbix_agent2.conf
